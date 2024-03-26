@@ -47,8 +47,7 @@ const App = () => {
           </code>
         </p>
 
-        <br />
-        <br />
+        <br />  <br />
 
         <center>
           <span className="p-4 m-4 text-2xl font-bold text-center text-black border-4">
@@ -58,9 +57,8 @@ const App = () => {
         <code>
           x<sub>i+1</sub> = x<sub>i</sub> + h(t<sup>-2</sup>(tx-x<sup>2</sup>))
         </code>
-        <br />
-
-        <br />
+        
+        <br /><br />
 
         {numberofIterations.map((val, index) => (
           <div className="my-8">
@@ -119,5 +117,4 @@ const App = () => {
     </>
   );
 };
-
 export default App;
